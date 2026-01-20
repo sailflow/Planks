@@ -1,18 +1,18 @@
-# @keel/ui
+# @sailflow/planks
 
 React component library built with Radix UI and Tailwind CSS.
 
 ## Installation
 
 ```bash
-bun add @keel/ui
+bun add @sailflow/planks
 ```
 
 ## Usage
 
 ```tsx
-import { Button, Card, CardContent } from '@keel/ui';
-import '@keel/ui/styles.css';
+import { Button, Card, CardContent } from '@sailflow/planks';
+import '@sailflow/planks/styles.css';
 
 export default function App() {
   return (
