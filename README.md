@@ -1,8 +1,51 @@
-![Auto Assign](https://github.com/sailflow/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+# @keel/ui
 
-![Proof HTML](https://github.com/sailflow/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+React component library built with Radix UI and Tailwind CSS.
 
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+## Installation
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+```bash
+bun add @keel/ui
+```
+
+## Usage
+
+```tsx
+import { Button, Card, CardContent } from '@keel/ui';
+import '@keel/ui/styles.css';
+
+export default function App() {
+  return (
+    <Card>
+      <CardContent>
+        <Button>Click me</Button>
+      </CardContent>
+    </Card>
+  );
+}
+```
+
+## Components
+
+- **Primitives**: Button, Input, Label, Checkbox, Switch, Select, etc.
+- **Layout**: Card, Container, Separator
+- **Data Display**: Avatar, Badge, DataTable
+- **Feedback**: Alert, Skeleton, Toast
+- **Navigation**: Tabs, Dropdown Menu
+
+## Development
+
+```bash
+# Install dependencies
+bun install
+
+# Build
+bun run build
+
+# Watch mode
+bun run dev
+```
+
+## Publishing
+
+Create a GitHub release to publish to npm automatically.
