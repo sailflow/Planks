@@ -33,6 +33,24 @@ export default function App() {
 - **Feedback**: Alert, Skeleton, Toast
 - **Navigation**: Tabs, Dropdown Menu
 
+## MCP Server (AI Assistant Integration)
+
+This library includes a Model Context Protocol (MCP) server for AI assistants like Claude.
+
+**Quick Setup:**
+```json
+{
+  "mcpServers": {
+    "planks": {
+      "command": "node",
+      "args": ["./node_modules/@sailflow/planks/dist/mcp/server.js"]
+    }
+  }
+}
+```
+
+See [MCP_SETUP.md](./MCP_SETUP.md) for detailed instructions.
+
 ## Development
 
 ```bash
