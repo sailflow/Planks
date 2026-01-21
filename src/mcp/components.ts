@@ -28,7 +28,7 @@ const COMPONENT_CATEGORIES = [
  * Get all components organized by category
  */
 export function getAllComponents(): Record<string, ComponentMetadata[]> {
-    const componentsDir = path.join(__dirname, '../components');
+    const componentsDir = path.join(__dirname, '../../src/components');
     const componentsByCategory: Record<string, ComponentMetadata[]> = {};
 
     for (const category of COMPONENT_CATEGORIES) {
